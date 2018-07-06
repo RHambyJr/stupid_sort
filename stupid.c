@@ -164,13 +164,13 @@ void stupidSort(long arr[], long len)
     {
         tries++; //Increase number of tries
         shuffle(arr, len);
-        printf("Shuffle #%llu\n", tries);
+        printf("Shuffle #%llu\n\n", tries);
         printArr(arr, len);
         Sleep(2000);
 		system("cls");
     }
 
-    printf("\n\nThe numbers are sorted!!!\n");
+    printf("The numbers are sorted!!!\n");
     printf("It took %llu shuffles to sort the array.\n", tries);
 }
 
